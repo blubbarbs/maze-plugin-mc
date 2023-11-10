@@ -1,0 +1,24 @@
+name: Maze
+description: Maze minigame plugin by BluBallsMan
+version: 2.0
+author: BluBallsMan
+api-version: 1.13
+depend: [TinyProtocol]
+main: com.gmail.bluballsman.themaze.TheMaze
+
+commands:
+    createcustomstructure:
+        description: Exports a custom structure file after selecting bounds. This structure can be as big as you want it to be.
+        usage: /createcustomstructure <structurename>
+    
+    createmazegame:
+        description: Create game
+        usage: /createmazegame <map>
+    
+    joingame:
+        description: Join game
+        usage: /joingame <RED | BLUE>
+    
+    startgame:
+        description: Start game
+        usage: /startgame
